@@ -4,8 +4,10 @@
   margin: -0.5rem -3.5rem;
   position: relative;
   margin-top: -7rem;
+  overflow: visible !important;
 }
 .f-content {
+  overflow: visible !important;
   position: absolute;
   display: flex;
   align-items: center;
@@ -27,15 +29,41 @@
   }
   .f-icons {
     display: flex;
-    gap: 2rem;
-    transform: scale(5.5);
-    flex-direction: column-reverse;
+    gap: 1rem;
+    transform: scale(2.3);
+    flex-direction: row;
     height: 47rem;
     margin-top: -3rem;
+    position: relative;
+    top: 50rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  .f-content {
+    transform: scale(0.5);
+  }
+  .f-icons {
+    display: flex;
+    gap: 0.5rem;
+    transform: scale(2.4);
+    flex-direction: row;
+    height: 47rem;
+    margin-top: -3rem;
+    position: relative;
+    top: 50rem;
   }
 }
 .EMAIL {
   font-size: 200%;
   font-weight: 600;
   color: black;
+}
+@media screen and (max-width: 480px) {
+  .EMAIL {
+    position: relative;
+    top: 10rem;
+    font-size: 150%;
+    font-weight: 600;
+    color: black;
+  }
 }

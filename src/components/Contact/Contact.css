@@ -34,7 +34,9 @@
 textarea {
   height: 4rem !important;
 }
-
+.awesome {
+  text-align: center;
+}
 .c-blur1 {
   top: 1rem;
   left: 8rem;
@@ -52,8 +54,8 @@ textarea {
   }
   .awesome > :nth-child(2) {
     position: relative;
-    left: 50%;
-    transform: translateX(-35%);
+    /* left: 50%;
+    transform: translateX(-35%); */
     text-align: center;
     color: var(--orange);
     font-size: 2.5rem;
@@ -61,9 +63,9 @@ textarea {
   }
   .awesome > :nth-child(1) {
     position: relative;
-    left: 50%;
+    /* left: 50%; */
     text-decoration: underline;
-    transform: translateX(-35%);
+    /* transform: translateX(-35%); */
     text-align: center;
     color: var(--orange);
     font-size: 2.5rem;
